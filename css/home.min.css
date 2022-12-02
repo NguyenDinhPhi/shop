@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+.den {
+  width: 100%;
+  height: 20px;
+  background-color: #000;
+}
+.header-top {
+  font-size: 13px;
+}
+.header-bottom {
+  background-color: #fff;
+}
+.header-bottom .navbar {
+  height: 50px;
+}
+.header-bottom .navbar-brand {
+  position: relative;
+  top: -12px;
+  left: 25px;
+}
+.nav-link {
+  color: #000;
+}
+.glass_search .input-group {
+  border-radius: 30px;
+}
+.icon_btn {
+  font-size: 22px;
+  color: #000;
+}
+.card {
+  transition: all 0.3s ease;
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.3);
+}

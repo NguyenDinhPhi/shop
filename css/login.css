@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+    font-family: 'Mont';
+} */
+
+#wrapper{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    min-height: 80vh;
+}
+.login{
+    padding-top: 140px;
+}
+.mk{
+    padding:15px 5px 10px 0px ;
+   
+}
+.mk a{
+    color: black;
+}
+.mk a:hover{
+    background: black;
+    color: white;
+}
+form{
+    
+}
+h3{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+.form-group{
+    margin-bottom: 15px;
+    position: relative;
+}
+input{
+    height: 54px;
+    width: 100%;
+    outline: none;
+    border: 1px solid black;
+    padding: 10px;
+    font-size: inherit;
+    color: black;
+    transition: all 0.3s ease-in-out;
+
+}
+label{
+    position: absolute;
+    padding: 0 5px;
+    color: rgb(136, 136, 136);
+    transform: translateY(-50%);
+    left: 5px;
+    top: 50%;
+    background:white;
+    pointer-events: none;
+    transition: all 0.3s ease-in-out;
+}
+.form-group input:focus{
+    border: 1px solid black;
+}
+.form-group input:focus + label,
+.form-group  input:valid + label{
+ top:0;
+ font-style: 13px;
+ font-weight: 500;
+ color: black;
+
+}
+input#btn-login, #btn-gn{
+    background:black;
+    color: aliceblue;
+    cursor: pointer;
+   
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+input#btn-login:hover{
+    opacity: 0.85;
+}
+.gl-checkbox{
+    display: flex;
+    margin-top: 30px;
+    
+}
+.check-input{
+    height: 24px;
+    width: 20px;
+    margin-right: 10px;
+}
+.truycap{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #000;
+
+}
+.truycap:hover{
+    color: gray;
+}
+.truycap .icon-fb{
+        font-size: 24px;
+        background: #1877f2;
+        border-radius: 50%;
+        height: 35px;
+        width: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+}
+.truycap .icon-gg{
+    font-size: 24px;
+    background: #dc4e41;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-left: 13px;
+}

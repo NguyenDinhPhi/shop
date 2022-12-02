@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card1{
+    padding-top: 80px;
+}
+.sp-card{
+    border: 1px solid #000;
+    
+}
+.pay-sp{
+    margin-top: 77px;
+}
+.sum-sp{
+    margin-top: 40px;
+    border: solid 1px #7e7e7e;
+    width: 100%;
+    height: 241px;
+}
